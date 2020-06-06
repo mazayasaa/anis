@@ -1,0 +1,245 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Comic Neue', cursive;
+	background-color: #f5dcd5;
+	text-align: justify;
+	font-size: 20px;
+}
+
+nav{
+	width: 100%;
+	height: 70px;
+	background-color: rgb(246, 222, 235);
+	box-shadow: 5px 5px 5px 5px #ddd;
+	position: fixed;
+	top: 0;
+}
+
+nav img{
+	width: 50px;
+	height: 50px;
+	padding: 8px 0;
+	margin-left: 16px;
+}
+
+ul{
+	margin: 0;
+	padding: 1rem; /* 1 rem = 16px */
+	float: right;
+}
+
+li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 0.5rem;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.no_body{
+	height: 80px;
+}
+
+.section{
+	padding: 10px;
+}
+
+.section h1{
+	margin-top: 0;
+	text-align: center;
+}
+
+
+#info_utama{
+	display: center;
+}
+
+#iinfo_utama img{
+	width: 80%;
+	border-radius: 1rem;
+	box-shadow: 0 12px 20px #ddd;
+	padding: 10px 10px 10px 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#info_utama h3 {
+	margin: 0;
+	text-align: center;
+}
+
+.btn1 {
+  border: 2px solid black;
+  background-color: #f6deeb;
+  color: black;
+  padding: 10px 24px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#konten{
+	display: flex;
+}
+
+#menu{
+	width: 25%;
+	background-color: #e0f9fe;
+	padding: 10px;
+}
+
+#menu h5{
+	text-align: center;
+}
+
+.btn2 {
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.menu_konten {
+	background-color: #ce9b9b;
+}
+
+.menu_konten:hover {
+	background-color: #83859a;
+}
+
+#materi{
+	width: 75%;
+	background-color: #f0feda;
+	padding: 20px;
+}
+
+#materi img {
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+}
+
+iframe{
+	display: block;
+	margin: auto;
+}
+
+.btn3 {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn3:hover {
+  background-color: RoyalBlue;
+}
+
+.btn4 {
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.kirim {
+	background-color: #2196F3;
+}
+
+.kirim:hover {
+	background: #0b7dda;
+}
+
+.hapus {
+	background-color: #f44336;
+}
+
+.hapus:hover {
+	background: #da190b;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6999ad;
+  color: white;
+  display: flex;
+}
+
+#fotoku {
+	width: 25%;
+}
+
+#fotoku img {
+	width: 40%;
+	border-radius: 1rem;
+	padding: 10px 10px 10px 10px;
+}
+
+#sosmed {
+	width: 50%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
